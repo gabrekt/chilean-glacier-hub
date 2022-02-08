@@ -1,0 +1,120 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-direction: column;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    gap:15px;
+    align-items: center;
+}
+
+.header{
+    background-color: #44989e;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.LogoText{
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.body{
+    display:flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: #3882F6;
+    color:white;
+    width: 200px;
+    height: auto;
+}
+.section1{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #F9FAF8; 
+}
+
+.section1 video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.section1 .captions{
+    background-color: rgba(211, 238, 232, 0.402);
+    width: 800px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.section2{
+    background-color: #44989e;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2 img{
+    width: 60px;
+    height: 60px;
+}
+.section2 .container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:82px;
+}
+
+.section2 .info{
+    max-width: 200px;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+}
+.BigImage{
+    width: 400px;
+    height: 400px;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+}
