@@ -51,6 +51,7 @@ button{
     color:white;
     width: 200px;
     height: auto;
+    border-radius: 12px;
 }
 .section1{
     display:flex;
@@ -78,6 +79,7 @@ h1{
 .section1 .captions{
     background-color: rgba(211, 238, 232, 0.402);
     width: 800px;
+    padding:15px;
     position: relative;
     text-align: center;
     z-index: 1;
@@ -88,11 +90,16 @@ h1{
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    height: 300px;
 }
 
 .section2 img{
     width: 60px;
     height: 60px;
+    border: 2px solid black;
+    padding:5px;
 }
 .section2 .container{
     display:flex;
@@ -108,13 +115,81 @@ h1{
 
 .section3{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    height: 500px;
 }
-.BigImage{
-    width: 400px;
-    height: 400px;
+
+
+.section3 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.section3 .quotes{
+    background-color: rgba(211, 238, 232, 0.402);
+    width: 800px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    margin-top: 60px;
+}
+
+.section3 .quotes .italic{
+    text-align: right;
+    font-size: 14px;
+    font-style: italic;
+    padding-right: 8px;
+}
+
+.section3 .quotes .autor{
+    text-align: right;
+    font-size: 12px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.section4{
+    background-color: #44989e;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+    
+}
+
+.section4 img{
+    height: 140px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+}
+.section4 .donate{
+    background-color: #44859e;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.section4 p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section4 .buttons{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: center;
 }
 .footer{
     display:flex;
     flex-direction: row;
+    justify-content: center;
+
 }
